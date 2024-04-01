@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+  ],
+  "settings": {
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.root": "/public",
+    "liveServer.settings.port": 8083,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Visual Studio 2019 Light",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "SauceCodePro NF",
+    "editor.tabSize": 2
+  }
+}
