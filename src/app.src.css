@@ -23,6 +23,31 @@
   h4 {
     @apply text-lg;
   }
+
+  form label {
+    @apply font-bold block text-lg;
+  }
+
+  .input-base {
+    @apply p-1 w-full text-lg ring ring-gray-400 mb-2 rounded placeholder:text-gray-400 placeholder:font-normal;
+  }
+
+  form input:not([type="submit"]):not([type="checkbox"]),
+  form textarea {
+    @apply input-base invalid:ring-red-400 focus:invalid:ring-red-400 focus:bg-yellow-50  focus:outline-none focus:ring-yellow-400;
+  }
+
+  select {
+    @apply input-base ring-0 border focus:ring-0 outline-none;
+  }
+
+  header select > option {
+    @apply text-lg font-bold p-2;
+  }
+
+  .button {
+    @apply p-2 border-gray-500 rounded my-1 font-bold bg-blue-800 text-white hover:bg-blue-900 disabled:bg-gray-300 disabled:text-gray-400 disabled:hover:bg-gray-300 disabled:cursor-not-allowed;
+  }
 }
 
 @layer utilities {
