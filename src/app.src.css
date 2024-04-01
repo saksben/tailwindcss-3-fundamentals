@@ -9,7 +9,7 @@
     font-family: Roboto;
   }
   h1 {
-    @apply font-bold text-2xl;
+    @apply font-bold text-large;
   }
 
   h2 {
@@ -27,6 +27,12 @@
   form label {
     @apply font-bold block text-lg;
   }
+
+  /* @media screen(md) {
+    #container {
+      min-height: calc(1000px - theme("spacing.30"));
+    }
+  } */
 
   .input-base {
     @apply p-1 w-full text-lg ring ring-gray-400 mb-2 rounded placeholder:text-gray-400 placeholder:font-normal;

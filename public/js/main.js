@@ -139,7 +139,7 @@ function enablePaging() {
 }
 
 function formatFilm(film) {
-  return `<div class="h-72 overflow-hidden bg-gray-100/50 hover:bg-gray-100 rounded-lg m-1 dark:bg-gray-600/50 dark:text-white">
+  return `<div class="h-72 overflow-hidden bg-gray-100/50 hover:bg-primary-light rounded-lg m-1 dark:bg-gray-600/50 dark:text-white">
     <div class="w-48 flex-none relative">
       <img src="${film.posterUrl}" alt="${film.title}" class="absolute" />
     </div>
